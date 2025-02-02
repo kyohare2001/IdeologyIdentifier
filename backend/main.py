@@ -1,12 +1,15 @@
 from fastapi import FastAPI
-import mlflow
-import mlflow.sklearnq
+
 import pandas as pd
 
 app = FastAPI()
 
-@app.get("/")
-def read_root():
+@app.get("/data_collection")
+def data_collection():
+    return {"Hello": "World"}
+
+@app.get("/data_cleaning")
+def data_cleaning():
     return {"Hello": "World"}
 
 @app.get("/predict")
