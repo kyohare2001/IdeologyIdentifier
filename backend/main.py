@@ -6,11 +6,11 @@ app = FastAPI()
 
 @app.get("/data_collection")
 def data_collection():
-    return {"Hello": "World"}
+    pass
 
 @app.get("/data_cleaning")
 def data_cleaning():
-    return {"Hello": "World"}
+    pass
 
 @app.get("/predict")
 def predict(user_id: int):
