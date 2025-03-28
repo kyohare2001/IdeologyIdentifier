@@ -1,3 +1,5 @@
 venv/
 backend/data_collect.py
-.env
+*.env
+*.csv
+*.DS_Store
