@@ -1,5 +1,10 @@
 venv/
 backend/data_collect.py
+<<<<<<< HEAD
 *.env
 *.csv
 *.DS_Store
+=======
+api.env
+Political_tweets.csv
+>>>>>>> f37ca02 (adjustment for gitignore and api.env file)

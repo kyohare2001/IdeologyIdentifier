@@ -1,13 +1,13 @@
 # collect data from Twitter API
 import tweepy
+import os
+from dotenv import load_dotenv
 
-api_key = "0VjAkpJNF4QvylYL36dRaB3JE"
-api_key_secret = "ii4KSHT0b45Ucrnfh23N9TSpNC9Vb4VOdZ37DXiiID3QVFqm7I"
-access_token = "1600622828889391104-WLJeYzb1DcoMiwXJJExmTtoo08do1W"
-access_token_secret = "CISUsTgcrRV5LquuSohFQKoL0Y2K2f9jJ3371NZ9BSobH"
+load_dotenv()
 
+# os.environ.get()
 # Authenticate to access Twitter API
-auth = tweepy.OAuthHandler(api_key, api_key_secret, access_token, access_token_secret)
+auth = tweepy.OAuthHandler(os.environ.get("api_key"), os.environ.get("api_key_secret"), os.environ.get("access_token"), os.environ.get("access_token_secret"))
 api = tweepy.API(auth)
 
 # Collect user names
