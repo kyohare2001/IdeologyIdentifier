@@ -1,4 +1,6 @@
-# This is a sample Python script.
+# This is a sample Python script. 
+# Final goal of this file is to allow scraping of bluesky's user posts by user id
+# and it should return a dataframe with cleaned text 
 
 # Press ⌃R to execute it or replace it with your code.
 # Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
@@ -26,6 +28,12 @@ def drop_columns(df):
         df.drop(c, axis=1, inplace=True)
 
     return df
+
+def index_search(df, index):
+    """
+    
+    """
+    
 
 def main():
     # import dataframe and call it as df
