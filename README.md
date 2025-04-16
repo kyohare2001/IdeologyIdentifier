@@ -9,6 +9,8 @@ Web application that scores user ideological identity by using their social medi
         - Google storage (storing Model files)
         - Google Runs
 
+        libraries: atproto
+
     FrontEnd
         - React 
 
