@@ -11,7 +11,8 @@ RUN pip install --no-cache-dir \
     pandas \
     matplotlib \
     python-dotenv \
-    atproto
+    atproto \
+    flask 
 
 # 現在のディレクトリ内のファイルをコンテナ内にコピー
 COPY . .
