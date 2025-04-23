@@ -1,0 +1,11 @@
+flask==2.0.1
+flask-cors==3.0.10
+atproto>=0.0.40
+python-dotenv==0.19.0
+openai==0.28.1 # down grade to formaer SDK
+numpy>=1.25.0
+pandas>=2.0.0
+matplotlib==3.4.3
+redis==4.5.1
+flask-limiter==3.5.0 
+Werkzeug<2.1.0
