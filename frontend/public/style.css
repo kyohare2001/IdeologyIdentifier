@@ -1,0 +1,118 @@
+/* style.css */ 
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.project-title {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    background-color: #f4f4f4;
+}
+
+.project-title h1 {
+    margin-bottom: 10px;
+    font-size: 28px;
+    color : #333;
+}
+
+/* frex boxを使用する */
+/* */ 
+.InputFrame {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+.input {
+    padding: 12px;
+    width: 250px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.2s ease-in-out;
+  }
+  
+  .input:focus {
+    border-color: #0077cc;
+  }
+  
+  /* ボタンのデザイン */
+.submit {
+    height: auto;
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 3px 8px rgba(0, 119, 204, 0.2);
+    transition: background-color 0.3s ease, transform 0.1s ease;
+  }
+  
+.submit:hover {
+    background-color: #005fa3;
+  }
+  
+.submit:active {
+    transform: scale(0.98);
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.InputFrame {
+    margin: 20px 0;
+}
+
+.input {
+    padding: 8px;
+    margin: 5px 0;
+}
+
+.submit {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #45a049;
+}
+
+.post {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.post h3 {
+    margin: 0 0 10px 0;
+}
+
+.post p {
+    margin: 0 0 10px 0;
+}
+
+.post small {
+    color: #666;
+}

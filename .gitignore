@@ -1,1 +1,14 @@
 venv/
+backend/data_collect.py
+*.env
+*.csv
+*.DS_Store
+
+api.env
+*.env
+Political_tweets.csv
+
+.DS_Store
+backend/src/input/Political_tweets.csv
+*.csv
+

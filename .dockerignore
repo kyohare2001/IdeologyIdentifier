@@ -1,0 +1,35 @@
+# Python関連
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 仮想環境
+venv/
+.env/
+*.env
+
+# Git関連
+.git/
+.gitignore
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# IDE / エディタ
+.vscode/
+.idea/
+
+# Node.js / JS系
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# データや一時ファイル
+*.csv
+*.log
+*.sqlite3
+*.db
+*.bak
+*.swp
